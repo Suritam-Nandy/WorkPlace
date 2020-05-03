@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="designFiles/style.css">
+
+
+
+<!-- Firebase Integration -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+
+</head>
+
+
+
+<body> 
+   <div class="wrapper">
+    
+    <form class="box" > 
+        
+             
+
+        <h1>Signup</h3>
+                <div class="left-container">
+                <img src="Images\registration-form-1.jpg" >   
+            </div>
+
+               <div class="right-container">
+                        <div class="form-group ">
+                            <input type="text" placeholder="Username"   id="user" autocomplete="off" >
+                            <span id="usererror" style="color: aliceblue;"></span>
+                        </div>   
+                        
+                        <div class="form-group ">
+                            <input type="email" placeholder="email"   id="email" autocomplete="off" autocomplete="off">
+                            <span id="emailerror"  style="color: aliceblue;"></span>
+                        </div>
+                        
+                        <div class="form-group ">
+                            <input type="password" placeholder="password"   id="pass" autocomplete="off">
+                            <span id="passerror"  style="color: aliceblue;"></span>
+                        </div>
+                            
+                            <div class="form-group ">    
+                            <input type="password" placeholder="confirm password"   id="conpass" autocomplete="off">
+                            <span id="conpasserror"  style="color: aliceblue;"></span>
+                            </div> 
+
+                            <div class="form-group ">            
+                            <input type="text" placeholder="contact number"   id="number" autocomplete="off">
+                            <span id="numbererror"  style="color: aliceblue;"></span>
+                            </div>
+
+                            <input type="button" value="SIGNUP" id="signup" >
+                            
+                            <div  style="margin-top: 6%; font-size: 15px; ">
+                                <a href="/html/signin.html" >
+                                    Already have an account?
+                        
+                                </a>
+                        
+                            </div>
+                        </div>
+               
+        </form>
+          
+    </div>        
+
+                 
+        
+
+            
+
+        <script src="js/form.js" defer></script>
+    </body>
+
+</html>
+
+
+

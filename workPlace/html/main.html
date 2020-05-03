@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+    <link rel="stylesheet" href="/designFiles/side_bar.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <input type="checkbox" id="check" />
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      <header>Options</header>
+      <ul>
+        <li>
+          <a href="main.html"><i class="fas fa-home"></i>Home</a>
+        </li>
+        <li>
+          <a href="/html/todo.html" target="_blank"
+            ><i class="fas fa-link"></i>To-Do</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://analytics.google.com/analytics/web/provision/#/provision"
+            target="_blank"
+            ><i class="fas fa-qrcode"></i>Dashboard</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN:en"
+            target="_blank"
+            ><i class="fas fa-calendar-week"></i>News</a
+          >
+        </li>
+
+        <li>
+          <a href="https://accounts.google.com/signin" target="_blank"
+            ><i class="far fa-envelope"></i>Mails</a
+          >
+        </li>
+        <li id="signout">
+          <a href="signin.html"><i class="fas fa-sliders-h"></i>Sign Out</a>
+        </li>
+      </ul>
+    </div>
+
+    <section></section>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>

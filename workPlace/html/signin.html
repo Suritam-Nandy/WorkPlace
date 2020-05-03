@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signin</title>
+    <link rel="stylesheet" href="/designFiles/style.css" />
+
+    <!-- Firebase Integration -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <form class="box" action="" method="post">
+        <h1>Signin</h1>
+        <div class="left-container">
+          <img src="/Images/registration-form-1.jpg" />
+        </div>
+        <div class="right-container">
+          <div class="form-group">
+            <input
+              type="email"
+              placeholder="email"
+              id="email"
+              autocomplete="off"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="password"
+              placeholder="password"
+              id="pass"
+              autocomplete="off"
+            />
+          </div>
+          <input type="button" value="SIGNIN" id="signin" />
+
+          <div style="margin-top: 10%; font-size: 15px; text-align: center;">
+            <a href="/index.html" class="text-dark">
+              Not have an account? Signup
+            </a>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="/js/signin.js"></script>
+    <script></script>
+  </body>
+</html>
